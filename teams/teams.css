@@ -1,0 +1,127 @@
+.bottom-border {
+    border-bottom: 1px solid gray;
+}
+
+.bottom-right-border {
+    border-bottom: 1px solid gray;
+    border-right: 1px solid gray;
+    border-bottom-right-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.right-driver {
+    display: flex;
+    align-items: center;
+    flex: 1;
+}
+
+.apply-flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.table {
+    width: 500px;
+    height: 250px;
+    border-top: 1.5px solid black;
+    border-right: 1.5px solid black;
+    border-top-right-radius: 10px;
+}
+
+.points {
+    margin-right: 10px;
+    margin-top: 5px;
+    height: 50px;
+    justify-content: space-between;
+}
+
+.pts {
+    margin-bottom: 8px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    font-size: 13px;
+}
+
+.value {
+    font-size: 20px;
+    width: 40px;
+}
+
+.name {
+    height: 50px;
+    font-size: 25px;
+    margin-right: 10px;
+}
+
+.colour {
+    width: 5px;
+    height: 30px;
+    background-color: blue;
+    border-radius: 1px;
+}
+
+.team-name {
+    margin-left: 15px;
+}
+
+.logo {
+    flex: 1;
+}
+
+.logo-class {
+    float: right;
+    width: 40px;
+}
+
+.drivers {
+    height: 50px;
+    justify-content: space-evenly;
+    font-size: 10px;
+    margin-right: 10px;
+}
+
+.driver-1 {
+    margin-right: 15px;
+}
+
+.person-class {
+    float: right;
+    width: 40px;
+    margin-left: auto;
+    margin-right: 4px;
+}
+
+p {
+    font-weight: 150;
+}
+
+.car {
+    height: auto;
+}
+
+.car-class {
+    width: 80%;
+}
+
+.rowdies-light {
+    font-family: "Rowdies", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+  
+.rowdies-regular {
+    font-family: "Rowdies", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px
+}
+  
+.rowdies-bold {
+    font-family: "Rowdies", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+  
