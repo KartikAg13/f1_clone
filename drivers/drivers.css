@@ -1,0 +1,108 @@
+.bottom-border {
+    border-bottom: 1px solid gray;
+}
+
+.apply-flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.table {
+    width: 300px;
+    height: 325px;
+    border-top: 1.5px solid black;
+    border-right: 1.5px solid black;
+    border-top-right-radius: 10px;
+}
+
+.points {
+    margin-right: 10px;
+    margin-top: 5px;
+    height: 50px;
+    justify-content: space-between;
+}
+
+.pts {
+    margin-bottom: 8px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    font-size: 13px;
+}
+
+.value {
+    font-size: 20px;
+    width: 40px;
+}
+
+.name {
+    height: 50px;
+    font-size: 15px;
+    margin-right: 10px;
+}
+
+.colour {
+    width: 5px;
+    height: 30px;
+    background-color: blue;
+    border-radius: 1px;
+}
+
+.driver-name {
+    margin-left: 10px;
+    width: 75px;
+}
+
+.logo {
+    flex: 1;
+}
+
+.logo-class {
+    float: right;
+    width: 40px;
+}
+
+p {
+    font-weight: 150;
+}
+
+.driver {
+    height: 215px;
+}
+
+.team-name {
+    height: 25px;
+    justify-content: unset;
+    color: gray;
+
+}
+
+.car-number {
+    height: 60px;
+    width: 55px;
+}
+
+.goat {
+    width: 193px;
+}
+
+.rowdies-light {
+    font-family: "Rowdies", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 10px;
+}
+  
+.rowdies-regular {
+    font-family: "Rowdies", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px
+}
+  
+.rowdies-bold {
+    font-family: "Rowdies", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
