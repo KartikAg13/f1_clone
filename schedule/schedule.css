@@ -20,11 +20,17 @@
 }
 
 .form {
-    width: 80%;
+    width: 90%;
+    background-color: aqua;
 }
 
 .round {
-    width: 155px;
+    width: 165px;
+}
+
+.date {
+    background-color: violet;
+    margin-top: 40px;
 }
 
 .rowdies-light {
