@@ -9,6 +9,7 @@ header {
 .navbar {
     height: 50px;
     color: gray;
+    z-index: 10;
 }
 
 .fia {
@@ -149,23 +150,84 @@ a {
     transition: 0.5s;
 }
 
+.main-news {
+    margin-left: 92px;
+    margin-top: 160px;
+    width: 625px;
+    height: 600px;
+    border-top: 10px solid red;
+    border-right: 10px solid red;
+    border-top-right-radius: 25px;
+}
+
+.red-color {
+    margin-top: 20px;
+    font-size: 12px;
+    color: red;
+}
+
+.red-border {
+    margin-left: 5px;
+    font-size: 11px;
+    color: black;
+    border: 1px solid red;
+    border-radius: 50px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.black-heading {
+    margin-top: 5px;
+    font-size: 42px;
+    line-height: 45px;
+}
+
+.image-container {
+    background-color: aqua;
+    width: 600px;   
+    height: 350px;
+    overflow: hidden;
+    position: relative;
+    top: -20px;
+}
+
+.image {
+    height: 350px;    
+    transform: scale(1);
+    transition: 0.5s ease;
+}
+
+.zoom-image {
+    transition: 0.5s ease;
+}
+
+.main-news:hover .zoom-image {
+    transform: scale(1.15);
+}
+
+.main-news:hover .black-heading {
+    text-decoration: underline;
+}
+
 .rajdhani-light {
     font-family: "Rajdhani", sans-serif;
     font-weight: 300;
     font-style: normal;
-  }
+}
   
-  .rajdhani-regular {
+.rajdhani-regular {
     font-family: "Rajdhani", sans-serif;
     font-weight: 400;
     font-style: normal;
-  }
+}
   
-  .rajdhani-medium {
+.rajdhani-medium {
     font-family: "Rajdhani", sans-serif;
     font-weight: 600;
     font-style: normal;
-  }
+}
   
   .rajdhani-semibold {
     font-family: "Rajdhani", sans-serif;
@@ -173,9 +235,9 @@ a {
     font-style: normal;
   }
   
-  .rajdhani-bold {
+.rajdhani-bold {
     font-family: "Rajdhani", sans-serif;
     font-weight: 1000;
     font-style: normal;
-  }
+}
   

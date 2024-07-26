@@ -31,6 +31,8 @@
 .date {
     background-color: violet;
     margin-top: 40px;
+    position: absolute;
+    left: 5px;
 }
 
 .rowdies-light {
